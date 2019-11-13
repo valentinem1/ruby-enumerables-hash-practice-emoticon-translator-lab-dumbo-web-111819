@@ -12,6 +12,7 @@ def load_library(library)
    japanese = translation[1]
    new_hash[:get_emoticon][english] = japanese
    new_hash[:get_meaning][japanese] = meaning
+   binding.pry
  end
  return new_hash
 end
